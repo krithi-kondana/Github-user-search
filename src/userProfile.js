@@ -21,7 +21,7 @@ function Profile() {
       <div>
         <div className="userProfile">
           <img src={item.avatar_url} alt="userpicture" />
-          <h1>Username: {item.login}</h1>
+          <h2>Username: {item.login}</h2>
           <h3>Number of repositories: {item.public_repos}</h3>
           <h3>Followers: {item.followers}</h3>
           <h3>Location: {item.location}</h3> 
